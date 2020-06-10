@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-
+    TextView txt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,4 +16,5 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this, "toast from master", Toast.LENGTH_SHORT).show();
     }
+
 }
