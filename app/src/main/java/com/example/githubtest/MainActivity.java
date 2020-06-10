@@ -3,6 +3,7 @@ package com.example.githubtest;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toast.makeText(this, "toast from master", Toast.LENGTH_SHORT).show();
+        txt= findViewById(R.id.txt);
+        txt.setText("behrooz pahlavan");
     }
 
 }
